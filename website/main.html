@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .ana{
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .bg1{
+            background-image: url(1.jpg);
+            height: 100vh;
+        }
+        .bg2{
+            background-image: url(2.jpg);
+            height: 70vh;
+        }
+        .iceri{
+            position: relative;
+            left: 0;
+            top: 50%;
+            font-size: 40px;
+            width: 100%;
+            text-align: center;
+        }
+        .iceri .border {
+            background-color: black;
+            color: aliceblue;
+            padding: 20px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+        .prg {
+            color: #777;
+            background-color: #fff;
+            text-align: center;
+            padding: 50px 80px;
+
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .container{
+            margin: 0 auto;
+            width: 700px;
+            
+            
+        }
+        .row{
+            margin-bottom: 40px;
+        }
+        .row::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+      
+        .kutu{
+            padding: 10px;
+            position: relative;
+        }
+    
+        .resim1{
+            height: 400px; 
+            max-width: 300px;
+           
+        }
+        .resim2{
+            height: 400px; 
+            max-width: 350px;
+           
+        }
+        .yazi{
+            padding: 30px;
+        }
+        .col-3{
+            float: left;
+            width: 50%;
+        }
+        .card{
+            background-color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 10px 10px 40px rgba(52,58,64,0.1);
+            transition: all .3s;
+
+        }
+        .c1:hover{
+            transform: translateY(-10px);
+            background-color: darkred;
+        }
+        .c2:hover{
+            transform: translateY(-10px);
+            background-color: pink;
+        }
+        .yazi{
+            padding: 30px;
+        }
+        .img-fluid{
+            position: center;
+            width: 100%;
+        }
+        .btn {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 7px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+            transition-duration: .6s
+        }
+
+        .btn-primary {
+            background: #FC997C;
+            color: #fff;
+            border: 2px solid #FC997C;
+        }
+
+        .btn-primary:hover {
+            background: #fff;
+            color: #FC997C;
+            border: 2px solid #FC997C;
+        }
+
+        .btn-outline-primary {
+            background: #fff;
+            color: #FC997C;
+            border: 2px solid #FC997C;
+        }
+
+        .btn-outline-primary:hover {
+            background: #FC997C;
+            color: #fff;
+            border: 2px solid #FC997C;
+        }
+
+        .btn-secondary {
+            background: #2E4C6D;
+            color: #fff;
+            border: 2px solid #2E4C6D;
+        }
+
+        .btn-secondary:hover {
+            background: #fff;
+            color: #2E4C6D;
+            border: 2px solid #2E4C6D;
+        }
+
+        .btn-outline-secondary {
+            background: #fff;
+            color: #2E4C6D;
+            border: 2px solid #2E4C6D;
+        }
+
+        .btn-outline-secondary:hover {
+            background: #2E4C6D;
+            color: #fff;
+            border: 2px solid #2E4C6D;
+        }
+
+
+     
+    </style>
+</head>
+<body>
+    <div class="ana bg1">
+        <div class="iceri">
+           <span class="border">
+                Lorem, ipsum.
+           </span>
+        </div>
+    </div>
+    <div class="prg">
+        <h3></h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque dolores rerum reiciendis quod impedit? Quod unde in nam. Vel atque non earum culpa debitis accusamus tempora optio sunt iste.
+        </p>
+    </div>
+    <div class="ana bg2">
+        <div class="iceri">
+           <span class="border">
+                Lorem, ipsum.
+           </span>
+        </div>
+    </div>
+    <div class="prg">
+        <h2 class="baslik">FILMS</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="kutu col-3">
+                        <div class="card c1">
+                            <div class="resim img-fluid">
+                                <img src="o.jpg" alt="" class="resim1">
+                            </div>
+                            <h2 class="baslikk">OPPENHEIMER</h2>
+                            <div class="yazi"><button class="btn btn-primary">Details</button></div>
+
+
+                        </div>
+                        
+    
+                    </div>
+                    <div class="kutu col-3">
+                        <div class="card c2">
+                            <div class="resim img-fluid">
+                                <img src="b.jpg" alt="" class="resim2">
+                            </div>
+                            <h2 class="baslikk">BARBIE</h2>
+                            <div class="yazi"><button class="btn btn-primary">Details</button></div>
+        
+                            </div>
+
+
+
+                        </div>
+                        
+                </div>
+                
+            </div>
+        
+      
+    </div>
+</body>
+</html>

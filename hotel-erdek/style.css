@@ -1,0 +1,97 @@
+
+@import "-general.css";
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    font-family: Comfortaa;
+
+
+}
+.logo{
+    height: auto;
+    width: 72px;
+
+}
+.main-buttons{
+    display: flex;
+    
+}
+.button{
+    padding: 16px 24px;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: goldenrod;
+    color: aqua;
+    padding: 0;
+}
+
+.btn{
+    color: black;
+    text-decoration: none;
+}
+.bodi{
+    text-align: center;
+    position: relative;
+}
+
+.img{
+    width: 1224px;
+    height: 80vh;
+    opacity: 0.8;
+    border-radius: 10%;
+
+    
+}
+.bos{
+    margin: 32px;
+}
+.text{
+    font-family: IBM Plex Sans;
+    width: 60%;
+    z-index: 5;
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    background: rgba(40, 43, 40, 0.5);
+    color: aqua;
+    padding: 50px;
+    border-radius: 25%;
+}
+.footer-genel{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 240px;
+    align-items: center;
+    text-align: center;
+
+}
+.licence{
+    padding-left: 110px;
+    font-size: 16px;
+}
+.social-logos{
+    display: flex;
+    width: 32px;
+
+
+}
+.social-logo img{
+    width: 32px;
+    height: auto;
+    padding: 8px;
+    
+}
+
+
+
+
+
